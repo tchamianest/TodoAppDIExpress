@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES5"
+  },
+  "include": ["src/**/*.ts", "src/**/*"],
+  "exclude": ["node_modules"]
+}
